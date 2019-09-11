@@ -1,0 +1,24 @@
+name: fabrikate-openhack-devops
+type: component
+subcomponents:
+- name: poi
+  type: helm
+  source: https://github.com/Azure-Samples/openhack-devops-team/
+  method: git
+  path: "/apis/poi/charts/mydrive-poi"
+- name: trips
+  type: helm
+  source: https://github.com/Azure-Samples/openhack-devops-team/
+  method: git
+  path: "/apis/trips/charts/mydrive-trips"
+- name: user-java
+  type: helm
+  source: https://github.com/Azure-Samples/openhack-devops-team/
+  method: git
+  path: "/apis/user-java/charts/mydrive-user-java"
+- name: userprofile
+  type: helm
+  source: https://github.com/Azure-Samples/openhack-devops-team/
+  method: git
+  path: "/apis/userprofile/charts/mydrive-user"
+
