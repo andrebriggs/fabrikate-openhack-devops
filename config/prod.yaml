@@ -1,0 +1,45 @@
+subcomponents:
+  poi:
+    config:
+      repository:
+        image: "andrebriggs.azurecr.io/api-poi"
+      blue:
+        tag: "453"
+        enabled: true
+      ingress:
+        rules:
+          endpoint:
+            host: 'akstraefikopenhackkyp7.northeurope.cloudapp.azure.com'
+  trips:
+    config:
+      repository:
+        image: "andrebriggs.azurecr.io/api-trips"
+      blue:
+        tag: "453"
+        enabled: true
+      ingress:
+        rules:
+          endpoint:
+            host: 'akstraefikopenhackkyp7.northeurope.cloudapp.azure.com'
+  user-java:
+    config:
+      repository:
+        image: "andrebriggs.azurecr.io/api-user-java"
+      blue:
+        tag: "453"
+        enabled: true
+      ingress:
+        rules:
+          endpoint:
+            host: 'akstraefikopenhackkyp7.northeurope.cloudapp.azure.com'
+  userprofile:
+    config:
+      repository:
+        image: "andrebriggs.azurecr.io/userprofile"
+      blue:
+        tag: "453"
+        enabled: true
+      ingress:
+        rules:
+          endpoint:
+            host: 'akstraefikopenhackkyp7.northeurope.cloudapp.azure.com'
